@@ -1,2 +1,6 @@
-# boxes
-Print your array or array of array in small boxes.
+#boxes
+![boxes](docs/logo/1.png)
+
+## License
+
+[MIT](https://github.com/gv211432/boxes/blob/main/LICENSE)
