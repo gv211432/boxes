@@ -1,8 +1,18 @@
-[![Contributors][contributors-shield]][https://github.com/gv211432]
+<!-- [![Contributors][contributors-shield]][https://github.com/gv211432]
 [![Forks][forks-shield]][https://github.com/gv211432/boxes/network/members]
 [![Stargazers][stars-shield]][https://github.com/gv211432/boxes/stargazers]
 [![Issues][issues-shield]][https://github.com/gv211432/boxes/issues]
-[![MIT License][license-shield]][https://github.com/gv211432/boxes/blob/main/license]
+[![MIT License][license-shield]][https://github.com/gv211432/boxes/blob/main/license] -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!--
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/gv211432/boxes/blob/main/license) -->
 
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
