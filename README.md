@@ -1,20 +1,4 @@
-<!-- [![Contributors][contributors-shield]][https://github.com/gv211432]
-[![Forks][forks-shield]][https://github.com/gv211432/boxes/network/members]
-[![Stargazers][stars-shield]][https://github.com/gv211432/boxes/stargazers]
-[![Issues][issues-shield]][https://github.com/gv211432/boxes/issues]
-[![MIT License][license-shield]][https://github.com/gv211432/boxes/blob/main/license] -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!--
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/gv211432/boxes/blob/main/license) -->
-
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+![GitHub](https://img.shields.io/github/license/gv211432/boxes) ![GitHub issues](https://img.shields.io/github/issues-raw/gv211432/boxes) ![GitHub Repo stars](https://img.shields.io/github/stars/gv211432/boxes?style=social)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -26,7 +10,7 @@
   <h3 align="center">boxes</h3>
 
   <p align="center">
-    Print array, array of array, vector, vector of vector <br> and strings more beautifully👰
+    Print array, array of array, vector, vector of vector <br> and strings more beautifully 👰
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
