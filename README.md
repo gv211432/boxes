@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/gv211432/boxes) ![GitHub issues](https://img.shields.io/github/issues-raw/gv211432/boxes) ![GitHub Repo stars](https://img.shields.io/github/stars/gv211432/boxes?style=social)
+![GitHub](https://img.shields.io/github/license/GV211432/boxes) ![GitHub issues](https://img.shields.io/github/issues-raw/GV211432/boxes) ![GitHub Repo stars](https://img.shields.io/github/stars/GV211432/boxes?style=social)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -7,7 +7,7 @@
     <img src="docs/logo/box-circle.png" alt="Logo" width="120" height="120" >
   </a>
   
-  <h3 align="center">boxes</h3>
+  <h3 align="center"><b>boxes</b></h3>
 
   <p align="center">
     Print array, array of array, vector, vector of vector <br> and strings more beautifully 👰
@@ -27,19 +27,55 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Objective of this project is to help developers with menial tasks like printing something again and again.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+## Installation
 
-Here's why:
+Just download this file, from above
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+![How to download](https://github.com/gv211432/boxes/docs/img/download1.png)
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+and unzip it
 
-Use the `BLANK_README.md` to get started.
+![How to unzip](https://github.com/gv211432/boxes/docs/img/download1.png)
+
+and include it in your project.
+
+`include in your project`
+
+<details>
+  <summary>Code</summary>
+  <p>
+
+```c++
+#include <bits/stdc++.h>
+#include "../boxes-main/utilities.h"
+using namespace std;
+
+int main()
+{
+    vector<int> v = {1, 2, 3, 4, 5};
+    leetcode::Box.Box_2(v);
+    return 0;
+}
+```
+
+Output
+
+```js
+┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓
+┃  1  ┃  2  ┃  3  ┃  4  ┃  5  ┃
+┗━━━━━┻━━━━━┻━━━━━┻━━━━━┻━━━━━┛
+```
+
+  </p>
+</details>
+
+![How to include](https://github.com/gv211432/boxes/docs/img/install1.png)
+
+Output
+
+![Output](https://github.com/gv211432/boxes/docs/img/install1_output.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

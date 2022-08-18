@@ -8,7 +8,6 @@ namespace total_private
 #include "print_arr_vec.h"
 #include "convert.h"
 #include "ListNode.h"
-#include "mapTable.h"
 }
 
 namespace leetcode
@@ -27,7 +26,6 @@ namespace leetcode
     total_private::list_node::List_Node ListNode;
     total_private::print_vec::Print Print;
     total_private::convert_vec::Convert Convert;
-    total_private::mapTable::MapTable MapTable;
 
 }; // namespace boxes
 
