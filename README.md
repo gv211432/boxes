@@ -33,18 +33,18 @@ Objective of this project is to help developers with menial tasks like printing 
 
 Just download this file, from above
 
-![How to download](https://github.com/gv211432/boxes/docs/img/download1.png)
+![How to download](](./docs/img/download1.png)
 
 and unzip it
 
-![How to unzip](https://github.com/gv211432/boxes/docs/img/download1.png)
+![How to unzip](](./docs/img/download2.png)
 
 and include it in your project.
 
 `include in your project`
 
 <details>
-  <summary>Code</summary>
+  <summary><i>Click to open the code</i></summary>
   <p>
 
 ```c++
@@ -71,11 +71,11 @@ Output
   </p>
 </details>
 
-![How to include](https://github.com/gv211432/boxes/docs/img/install1.png)
+![How to include](./docs/img/install1.png)
 
 Output
 
-![Output](https://github.com/gv211432/boxes/docs/img/install1_output.png)
+![Output](./docs/img/install1_output.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
