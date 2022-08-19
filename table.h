@@ -947,6 +947,24 @@ namespace boxes
         }
 
         // derivatives
+
+        void Box_1(vector<vector<int>> &v, string text1, string text2,
+                   vector<int> &trace)
+        {
+            vector<vector<int>> tmp = {};
+            tmp.push_back(trace);
+            table_type_1_int(v, &print_type_1_int, text1, text2, tmp);
+        }
+        void Box_1(vector<int> &v, string text1, string text2,
+                   vector<int> &trace)
+        {
+            vector<vector<int>> vv = {};
+            vv.push_back(v);
+            vector<vector<int>> tmp = {};
+            tmp.push_back(trace);
+            table_type_1_int(vv, &print_type_1_int, text1, text2, tmp);
+        }
+
         void Box_1(vector<vector<int>> &v, string text1 = "", string text2 = "")
         {
             vector<vector<int>> trace = {};
@@ -958,6 +976,23 @@ namespace boxes
             vector<vector<int>> vov = {};
             vov.push_back(v);
             Box_1(vov, text1, text2);
+        }
+
+        // converting array to vector and giving main funtion call
+        void Box_1(int *arr, size_t len, string text1 = "", string text2 = "",
+                   int *trace = nullptr, size_t len2 = 0)
+        {
+            // vector<int> v(len, 0);
+            // for (size_t i = 0; i < len; i++)
+            //     v[i] = *(arr + i);
+
+            vector<int> v = CONVERT.arr_to_vec(arr, len);
+            vector<int> temp(len2, 0);
+            for (size_t i = 0; i < len2; i++)
+                for (size_t j = 0; j < len2; j++)
+                    temp.push_back(*(trace + i + j));
+
+            Box_1(v, text1, text2, temp);
         }
 
         // Boolean :

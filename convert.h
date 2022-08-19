@@ -78,7 +78,7 @@ namespace convert_vec
 
             for (size_t i = 0; i < len; i++)
                 for (size_t j = 0; j < width; j++)
-                    v[i][j] = *(arr_of_arr + i + j);
+                    v[i][j] = *(arr_of_arr + (i * width) + j);
             return v;
         }
 
@@ -128,7 +128,7 @@ namespace convert_vec
             matrix v(len, std::vector<char>(width));
             for (size_t i = 0; i < len; i++)
                 for (size_t j = 0; j < width; j++)
-                    v[i][j] = *(arr_of_arr + i + j);
+                    v[i][j] = *(arr_of_arr + (i * width) + j);
             return v;
         }
 
@@ -179,7 +179,7 @@ namespace convert_vec
             matrix v(len, std::vector<string>(width));
             for (size_t i = 0; i < len; i++)
                 for (size_t j = 0; j < width; j++)
-                    v[i][j] = *(arr_of_arr + i + j);
+                    v[i][j] = *(arr_of_arr + (i * width) + j);
             return v;
         }
 
@@ -230,7 +230,7 @@ namespace convert_vec
             matrix v(len, std::vector<float>(width));
             for (size_t i = 0; i < len; i++)
                 for (size_t j = 0; j < width; j++)
-                    v[i][j] = *(arr_of_arr + i + j);
+                    v[i][j] = *(arr_of_arr + (i * width) + j);
             return v;
         }
 
